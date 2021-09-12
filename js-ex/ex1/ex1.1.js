@@ -1,0 +1,14 @@
+let str = "asad";
+console.log(str);
+let num = 13;
+console.log(num);
+let obj ={};
+console.log(obj);
+let bool = true;
+console.log(bool);
+let nullVar= null;
+console.log(nullVar);
+let undefinedVar;
+console.log(undefinedVar);
+let symbolVar =  Symbol('foo');
+console.log(symbolVar);
