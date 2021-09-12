@@ -1,9 +1,9 @@
 let str = "asad";
-console.log(str);
+console.log( "str :",str);
 let num = 13;
-console.log(num);
+console.log("num :",num);
 let obj ={};
-console.log(obj);
+console.log("obj :",obj);
 let bool = true;
 console.log(bool);
 let nullVar= null;
