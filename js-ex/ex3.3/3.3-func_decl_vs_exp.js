@@ -13,7 +13,7 @@ console.log("egyption percentage of the world populattion is : ",percentageOfWor
 
 const percentageOfWorld2= function (population){
 
-    return (population/worldPopulation)*100;
+    return percentageOfWorld1(population);
     
 }
 console.log("usas percentage of the world populattion is : ",percentageOfWorld2(328.2).toFixed(3));
