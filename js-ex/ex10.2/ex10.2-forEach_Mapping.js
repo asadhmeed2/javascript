@@ -50,12 +50,18 @@ const showFirstAndLast = (array) => {
 
 
 const vowelCount = (string) => {
-    let vowels = { a: 0, e: 0, i: 0, o: 0, u: 0 };
+    let vowels = {};
     string.split('').forEach(e => {
         let l = e.toLowerCase();
         if (l === 'a' || l === 'e' || l === 'i' || l === 'o' || l == 'u') {
-            vowels[l] += 1;
+            if (!(l in vowels))
+                vowels[l] = 1;
+            else
+                vowels[l]++;
         }
+
+            
+        
 
     })
     return vowels;
