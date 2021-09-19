@@ -8,11 +8,12 @@ const array = ["Hello", "Good Day", "Your Welcome", "hotdog",
         const letters={}
         let string=array.join('');
         string.split('').forEach(letter => {//iterate on all the array and count the letters
-            if(letters[letter.toLowarCase()]){//if the letter is a proporty in the object 
-                letters[letter.toLowarCase()]+=1; // add 1 to the value of the proporty
+            if(letters[letter.toLowerCase()]){//if the letter is a proporty in the object 
+                letters[letter.toLowerCase()]+=1; // add 1 to the value of the proporty
             }else{
-                letters[letter.toLowarCase()] = 1; // else add new proporty to the object and initialize it with value 1
+                letters[letter.toLowerCase()] = 1; // else add new proporty to the object and initialize it with value 1
             }
+            
             
         });
         return letters;

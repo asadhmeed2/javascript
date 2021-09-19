@@ -5,8 +5,10 @@ for (const key in object) {
         newObject[object[""+key]] = ''+key;
         
     }
-    
-}
+} 
+
+
+
 return newObject;
 }
 
