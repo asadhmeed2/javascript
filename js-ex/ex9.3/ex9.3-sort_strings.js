@@ -22,13 +22,16 @@ const foodsWithUpperCase = [
     "Z"
 ];
 foodsWithUpperCaseCoby = [...foodsWithUpperCase];
-foodsWithUpperCase.sort((a) => {
-    return a.toLowerCase();
-});
-foodsWithUpperCase.reverse();
+foodsWithUpperCase.sort((a,b) => {
+    
 
-foodsWithUpperCaseCoby.sort((a)=>{
-    return a.toLowerCase();
+    return a.toLowerCase().charCodeAt(0) - b.toLowerCase().charCodeAt(0);
+});
+
+
+foodsWithUpperCaseCoby.sort((a,b)=>{
+   
+    return b.toLowerCase().charCodeAt(0) - a.toLowerCase().charCodeAt(0);
 });
 
 
