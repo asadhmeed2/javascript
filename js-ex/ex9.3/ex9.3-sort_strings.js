@@ -19,12 +19,17 @@ const foodsWithUpperCase = [
     "Sabich",
     "hummus",
     "pizza with extra pineapple",
+    "Z"
 ];
 foodsWithUpperCaseCoby = [...foodsWithUpperCase];
-foodsWithUpperCase.sort();
+foodsWithUpperCase.sort((a) => {
+    return a.toLowerCase();
+});
 foodsWithUpperCase.reverse();
 
-foodsWithUpperCaseCoby.sort();
+foodsWithUpperCaseCoby.sort((a)=>{
+    return a.toLowerCase();
+});
 
 
 
