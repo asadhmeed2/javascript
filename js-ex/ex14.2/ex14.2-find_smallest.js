@@ -8,7 +8,7 @@ function findSmallest(a, b, c) {
     }
 }
 findSmallest(52, 66, 2)
-console.log(findSmallest(52, 66, 2));
+
 // findSmalest(52, 66, 2);
 
 // 1. First find the line that contains the problem.Write it down.
