@@ -3,8 +3,8 @@ let arr2 =[1,5,2,8]
 
 
 function getSum(arr1, arr2) {
-    let sum = 0;
-    // const sum = 0;
+    // let sum = 0;
+    const sum = 0;
     for (let i = 0; i < arr1.length; i++) {
         sum += arr1[i];
     }
@@ -13,8 +13,8 @@ function getSum(arr1, arr2) {
     }
     return sum;
 }
-// getSum([1, 2, 3][5, 66, 23]);
 getSum([1, 2, 3],[5, 66, 23]);
+// getSum([1, 2, 3],[5, 66, 23]);
 
 
 // 1. First find the line that contains the problem.Write it down.
