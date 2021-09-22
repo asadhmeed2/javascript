@@ -40,7 +40,7 @@ console.log(test());
 
 
 function funcB() {
-    let a = b = 0;
+    let a =  b = 0;
     a++;
     return a;
 }
