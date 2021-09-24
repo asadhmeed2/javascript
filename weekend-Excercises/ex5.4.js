@@ -5,7 +5,7 @@ const toWeirdCase = (string) => {
         if (temp[i] === ' ') {
             count = 0;
         } else {
-            console.log(count % 2 === 0);
+            
             if (count % 2 === 0) {
                 temp[i] = temp[i].toUpperCase();
                 count++;
@@ -19,3 +19,4 @@ const toWeirdCase = (string) => {
     return temp.join("");
 }
 console.log(toWeirdCase('asad hmeed'));
+console.log(toWeirdCase("Weird string case"));
