@@ -1,6 +1,6 @@
 const toCamelCase =(string)=>{
     let array = string.split(/-|_/g);
-    let first =true;
+    
     for (let i=0;i<array.length;i++) {
         if (i!==0) {
             array[i] = array[i].replace(array[i][0], array[i][0].toUpperCase())
