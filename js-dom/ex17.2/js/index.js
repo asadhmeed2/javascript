@@ -17,8 +17,10 @@ const textAreaCheck =()=>{
 }
 
 
-submit.addEventListener('click',()=>{
+submit.addEventListener('click',(e)=>{
     textAreaCheck();
+ 
+    e.preventDefault()
 })
 textArea1.addEventListener('keyup', (event)=>textAreaCheck());
 // textArea1.addEventListener('focus',()=>textAreaCheck());
