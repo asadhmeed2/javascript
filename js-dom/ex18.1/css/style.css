@@ -1,9 +1,7 @@
-.submit-wraper{
-    display: flex;
+.submit-wraper {
+  display: flex;
 }
-img{
-    width:100px;
-    height:100px;
-
+img {
+  width: 100px;
+  height: 100px;
 }
-
