@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    text-align: center;
+}
+#param {
+    font-size: 14px;
+}
+#up {
+    margin: auto;
+    width: 50px;
+    padding: 5px;
+}
+#down{
+    margin: auto;
+    width: 50px;
+    padding: 5px;
+}
