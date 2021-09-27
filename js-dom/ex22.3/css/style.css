@@ -1,0 +1,22 @@
+.continer{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input-text{
+    text-align: center;
+}
+.gessed-letter{
+    padding: 2px 5px;
+    font-size: 16px;
+    border:solid black 2px ;
+}
+.message{
+    height: 15px;
+    text-align: center;
+}
+#reload-btn{
+ display: none;
+}
