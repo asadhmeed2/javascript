@@ -1,0 +1,11 @@
+.continer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.message-box{
+     text-align: center;
+    margin: auto;
+}
