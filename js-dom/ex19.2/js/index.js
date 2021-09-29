@@ -39,9 +39,9 @@ const checkInputAndMoveToNaxtSibling = (e) => {
 
 const handlePaste = (e) => {
 
-    console.log("in paste event");
+    
     const paste = e.clipboardData.getData('text');
-    console.log(paste);
+    
 
     inputs.forEach((input, i) => input.value = paste[i] >= 0 && paste[i] <= 9 ? paste[i] : "");
 

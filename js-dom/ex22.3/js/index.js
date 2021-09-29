@@ -13,8 +13,8 @@ let randomLetter = alphabet[randomIndex];
 let triedLetters = "";
 console.log(randomLetter);
 inputText.addEventListener('keyup', () => {
-    let str = inputText.value;
-    console.log(inputText);
+    let str = inputText.value.toLowerCase();
+    
     if (/^[a-z]+$/.test(str)) {
         if (triedLetters.includes(str)) {
             message.innerHTML = `${str} has already been guessed!`;
