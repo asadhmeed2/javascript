@@ -1,0 +1,60 @@
+Question 1:
+In your own words what will this point to and why?(Note
+this is the global scope)
+
+console.log(this);
+
+Answer:
+the this keyword well point to the global object in node js and in the web app well point to the window object 
+
+Question 2:
+a. In your own words what will this point to and why.
+b. How can you fix this code.
+const myObj = {
+ name: "Timmy",
+ greet: () => {
+ console.log(`Hello ${this.name}`);
+ },
+};
+myObj.greet()
+
+
+Answer a:
+to the global object 
+because the arrow function does not tack value of this 
+Answer b: 
+change the greet function to a normal function syntax 
+
+
+
+
+Question 3:
+In your own words what will this point to and why?
+const myFuncDec = function () {
+ console.log(this);
+};
+ Answer:
+ the object that called the function  
+
+ Question 4:
+In your own words what will this point to and why?
+const myFuncArrow = () => {
+ console.log(this);
+};
+myFuncArrow();
+
+ Answer:
+ the global object 
+
+ Question 5:
+a. In your own words what will this point to and why.
+b. How can you fix this code.
+document.querySelector(".element").addEventListener(() => {
+ console.log(this);
+});
+Answer a:
+global object 
+because the arrow function does not tack the value of this 
+
+Answer b:
+change the sytnax of the callback function to normal sytnax (anonyous function or named function)
